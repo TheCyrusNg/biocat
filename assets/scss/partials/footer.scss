@@ -1,0 +1,9 @@
+.my-footer{
+    background-color: var(--bs-gray-900);
+    position:absolute;
+    bottom:0;
+    z-index:10;
+    p{
+        color: var(--bs-white);
+    }
+}

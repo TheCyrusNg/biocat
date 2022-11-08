@@ -1,0 +1,27 @@
+.navbar{
+    background-color: var(--bs-gray-900);
+    a.navbar-brand{
+      span{
+        color:(var(--bs-white));
+        font-weight:700;
+        }  
+    }
+      span{
+        color:(var(--bs-white));
+    }
+    a{
+        color:(var(--bs-white));
+    }
+    .nav-link.active, .navbar-nav .show > .nav-link{
+        color: var(--bs-red);
+    }
+    .nav-link:focus, .nav-link:hover {
+        color: var(--bs-red);
+    }
+
+    .dropdown-menu {
+    background-color: var(--bs-gray-900);
+    }
+
+
+}
